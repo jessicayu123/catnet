@@ -1,0 +1,21 @@
+.redText {
+    color: #4d79c4;
+    text-align: center;
+    font-size: 800%;
+    font-weight: bolder;
+    background-image: url("../images/logo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat
+}
+.banner {
+    background-color:#9FBAD3;
+    
+}
+.img {
+    width: 100%;
+    height: 50%;
+  }
+
+.p {
+    text-align: center;
+}
