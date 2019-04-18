@@ -80,11 +80,9 @@ margin-bottom: 20px;
   }
 
   #bannerimage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 97%;
-    
+    max-width: 97%;
+    height: 500px;
+    margin-left:17px;
   }
 
   #grey {
@@ -121,3 +119,45 @@ margin-bottom: 20px;
   background-color: #9FBAD3;
 }
  
+#head {
+  float:left;
+    width: 25%;
+}
+
+#title {
+  float:left;
+    width: 75%
+
+}
+
+img.img-fluid.nonprofit-logo {
+  max-width: 50%;
+  height: 50px;
+}
+
+.logoname {
+font-family: 'Paralucent', sans-serif;
+color: #4D79C4;
+font-weight: bold;
+font-style: italic;
+font-size: 30px;
+text-align: center;
+}
+
+#bannertitle {
+  font-size: 35px;
+  color:white;
+  font-family: 'Paralucent', sans-serif;
+  padding: 0.2em;
+  
+  background-color:rgba(0, 0, 0, 0.2);
+}
+
+#navbartext {
+  font-size: 40px;
+  font-family: 'Nunito', sans-serif;
+color:grey;
+font-weight: bold;
+
+  
+}
