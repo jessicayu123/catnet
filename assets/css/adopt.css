@@ -1,0 +1,34 @@
+#adopttitle {
+    text-align: center;
+   width: 100%;
+    
+
+}
+
+#paragraph {
+    font-size: 20px;
+
+}
+
+#after {
+  text-align: center;
+  background-color: #9FBAD3;
+  padding:40px;  
+  outline: 3px solid black;
+
+}
+
+#adoption {
+    text-align: center;
+    background-color: #9FBAD3;
+    padding:40px;  
+    outline: 3px solid black;
+  
+  }   
+
+  #dropdown {
+      margin-bottom:30px;
+      
+  }
+
+ 
