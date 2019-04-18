@@ -117,6 +117,7 @@ margin-bottom: 20px;
 
 .blue {
   background-color: #9FBAD3;
+  margin-top:20px;
 }
  
 #head {
@@ -160,4 +161,24 @@ color:grey;
 font-weight: bold;
 
   
+}
+
+#ourteam {
+  font-size: 32px;
+}
+
+#ourteamtext {
+  font-size: 50px;
+  text-align: center;
+}
+
+#contactimg {
+  margin-right:20px;
+  max-width: 100%;
+}
+
+#hours {
+  font-size: 40px;
+  background-color: #f2e2f0;
+  outline-color: black;
 }
