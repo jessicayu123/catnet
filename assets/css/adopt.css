@@ -1,39 +1,39 @@
 #adopttitle {
-    text-align: center;
-   width: 100%;
-    
+  text-align: center;
+  width: 100%;
+
 
 }
 
 #paragraph {
-    font-size: 20px;
+  font-size: 20px;
 
 }
 
 #after {
   text-align: center;
   background-color: #9FBAD3;
-  padding:40px;  
+  padding: 40px;
   outline: 3px solid black;
 
 }
 
 #adoption {
-    text-align: center;
-    background-color: #9FBAD3;
-    padding:40px;  
-    outline: 3px solid black;
-  
-  }   
+  text-align: center;
+  background-color: #9FBAD3;
+  padding: 40px;
+  outline: 3px solid black;
 
-  #dropdown {
-      margin-bottom:30px;
-      
-  }
+}
 
-  img.rounded-corners {
+#dropdown {
+  margin-bottom: 30px;
 
-    border-radius: 30px;
-  
-  }
- 
+}
+
+img.rounded-corners {
+
+  border-radius: 30px;
+
+}
+
