@@ -141,13 +141,13 @@ font-family: 'Paralucent', sans-serif;
 color: #4D79C4;
 font-weight: bold;
 font-style: italic;
-font-size: 30px;
+font-size: 13px;
 text-align: center;
 }
 
 #bannertitle {
   font-size: 35px;
-  color:white;
+  color:pink;
   font-family: 'Paralucent', sans-serif;
   padding: 0.2em;
   
@@ -163,9 +163,7 @@ font-weight: bold;
   
 }
 
-#ourteam {
-  font-size: 32px;
-}
+
 
 #ourteamtext {
   font-size: 50px;
@@ -178,15 +176,57 @@ font-weight: bold;
 }
 
 #hours {
-  font-size: 40px;
   background-color: #f2e2f0;
   outline-color: black;
   text-align: center;
 }
 
 
+.pagination {
+  float: right;
+}
+
+#welcome {
+font-family: 'Paralucent', sans-serif;
+color:#9FBAD3;;
+font-weight: bold;
+font-style: italic;
+margin-top:20px;
+margin-bottom: 20px;
+font-size: 90px;
+text-align: center;
+width: 100%;
+}
+
+#signup {
+  text-align: center;
+  width: 100%;  
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+#form1 {
+  margin-top:150px;
+  margin-bottom:100px;
+  padding-left:65px;
+  padding-right:65px;
+}
+#form2 {
+  margin-top:50px;
+  padding-left:65px;
+  padding-right:65px;
+}
 
 
+
+.forgot {
+  text-align: right;
+}
+
+#account {
+  margin-top:50px;
+  color:red;
+}
 @media only screen and (min-width: 414px) {
   .pagecontent p {
     
@@ -201,6 +241,31 @@ font-weight: bold;
     font-size: 25px;
   }
 
+  .contactus h2 {
+    font-size: 20px;
+  }
+
+  .process h2 {
+    font-size: 20px;
+  }
+  .knowledge h2 {
+    font-size: 20px;
+  }
+
+  .contactsize h3  {
+    font-size: 20px;
+  }
+   .contactsize p {
+     font-size: 25px;
+   }
+
+   .ourteamparagraph p {
+     font-size: 18px;
+   }
+
+   .ourteamparagraph h1 {
+     font-size: 30px;
+   }
 @media only screen and (min-width: 768px) {
   
   .pagecontent p 
@@ -215,7 +280,20 @@ font-weight: bold;
   .adopttitle h1 {
     font-size: 30px;
   }
+  .contactus h2 {
+    font-size: 25px;
+  }
+  .process h2 {
+    font-size: 25px;
+  }
 
+  .knowledge h2 {
+    font-size: 25px;
+  }
+
+  .ourteamparagraph p {
+    font-size: 20px;
+  }
 @media only screen and (min-width: 1024px) {
   .pagecontent p {
     
@@ -230,3 +308,32 @@ font-weight: bold;
     font-size: 50px;
   }
 
+  .contactus h2 {
+    font-size: 30px;
+  }
+
+  .pagination {
+    float: right;
+  }
+  .process h2 {
+    font-size: 35px;
+  }
+
+  .knowledge h2 {
+    font-size: 32px;
+  }
+  .contactsize p {
+    font-size: 35px;
+  }
+
+  .contactsize h3  {
+    font-size: 25px;
+  }
+  
+  .ourteamparagraph p {
+    font-size: 30px;
+  }
+
+  .ourteamparagraph h1 {
+    font-size: 35px;
+  }

@@ -37,6 +37,7 @@
     
 
     <!-- SOCIAL MEDIA BANNER -->
+    <img src="assets/images/HEADLOGO.png" alt="" class="img-fluid width=100%" >
       
     <div>
         <section id="bannerleft">
@@ -50,7 +51,7 @@
         </section> 
   
         <section id="bannerright">
-          <a href="https://www.w3schools.com/html/" style="color:beige">Sign In/Sign Up</a>
+          <a href="signup.html" style="color:beige">Sign In/Sign Up</a>
           </section> 
   
   
@@ -60,7 +61,7 @@
     
     <nav class="navbar navbar-expand-sm bg-custom navbar-light">
         <a class="navbar-brand" href="#">
-            <img src="assets/images/Untitled-2.png" width="105" height="90" class="d-inline-block align-top" alt="">
+            <img src="assets/images/Untitled-2.png" width="50" height="40" class="d-inline-block align-top" alt="">
              <h1 class="logoname">CATNET</h1>
           </a>
       
@@ -72,29 +73,108 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active custom-active-tab">
-        <a id="navbartext" class="nav-link" href="#">ABOUT</a>
+        <a id="navbartext" class="nav-link" href="index.html">ABOUT</a>
       </li>
       <li class="nav-item active custom-active-tab">
-        <a id="navbartext" class="nav-link" href="#">ADOPT</a>
+        <a id="navbartext" class="nav-link" href="adopt.html">ADOPT</a>
       </li>
       <li class="nav-item active custom-active-tab">
         <a id="navbartext"class="nav-link" href="#">DONATE</a>
       </li>
       <li class="nav-item active custom-active-tab">
-        <a id="navbartext"class="nav-link" href="#">CONTACT</a>
+        <a id="navbartext"class="nav-link" href="contact.html">CONTACT</a>
       </li>
     </ul>
     
   </div>
   </nav>
-   <!-- FOOTER -->
-   <div class="row">
-        <div class="col blue">
-        <a href=""><h2 id="footer">CONTACT US</h2></a>
-        <a href=""><h2 id="footer">VOLUNTEER OPPORTUNITY</h2></a>
-        <a href=""><h2 id="footer">SOCIAL MEDIA</h2></a>
-        </div>
+
+  <!-- welcome -->
+  <div class="container">
+    <div class="row">
+      <h2 id="welcome">Welcome</h2>
+    </div>
+    <div class="row">
+      <h4 id="signup">Sign up to get notification about new available cats</h4>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 text-center">
+  <form id="form1" action="/action_page.php">
+    <div class="form-group">
+      
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <a  href=""><p class="forgot">Forgot Email</p></a>
+    <div class="form-group">
+      
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    </div>
+    <a  href=""><p class="forgot">Forgot Password</p></a>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Sign In</button>
+  </form>
       </div>
+    
+    <div class="col-md-6 text-center">
+    <h3 id="account">Don't have an account? Sign Up!</h3>
+    <form id="form2" action="/action_page.php">
+    <div class="form-group">
+      
+      <input type="email" class="form-control" id="email" placeholder="Name:" name="name">
+    </div>
+    <div class="form-group">
+      
+      <input type="email" class="form-control" id="email" placeholder="Password:" name="email">
+    </div>
+    <div class="form-group">
+      
+      <input type="email" class="form-control" id="email" placeholder="Re-type Password:" name="email">
+    </div>
+    <div class="form-group">
+      
+      <input type="email" class="form-control" id="email" placeholder="Email:" name="email">
+    </div>
+    <div class="form-group">
+      
+      <input type="password" class="form-control" id="pwd" placeholder="Re-type email:" name="pswd">
+    </div>
+    
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Sign In</button>
+  </form>
+  </div>
+  </div>
+</div>
+
+    </div>
+  
+   <!-- FOOTER -->
+   <div class="container">
+    <div class="row">
+      <div class="col blue contactus">
+        <a href="">
+          <h2 id="footer">CONTACT US</h2>
+        </a>
+        <a href="">
+          <h2 id="footer">VOLUNTEER OPPORTUNITY</h2>
+        </a>
+        <a href="">
+          <h2 id="footer">SOCIAL MEDIA</h2>
+        </a>
+      </div>
+    </div>
+  </div>
     </div>
 </body>
 </html>  
