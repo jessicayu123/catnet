@@ -37,3 +37,62 @@ img.rounded-corners {
 
 }
 
+.donatebanner {
+  border-radius:25px;
+  
+}
+.centered {
+  position:absolute;
+  top:90%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.container .banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.donate {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color:darkred;
+  font-size:55px;
+  margin-top:3%;
+}
+
+#one {
+  border: 2px solid grey;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 50px;
+  color:darkred;
+}
+
+.money {
+  margin-top: 30px;
+}
+
+.info {
+  padding-left:200px;
+  padding-right:200px;
+  margin-top:5%;
+
+
+}
+
+.col-4.text-center .row .col-12 {
+  margin-top:20px;
+
+}
+
+.row .col-12.text-center {
+  margin-top:20px;
+}
