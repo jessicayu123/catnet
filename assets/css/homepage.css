@@ -15,7 +15,11 @@ margin-bottom: 20px;
 }
 
 
-
+#full {
+  width: 100%;
+  overflow: auto;
+  clear: both;
+}
 
   #bannerleft {
     float:left;
