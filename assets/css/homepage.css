@@ -227,7 +227,7 @@ width: 100%;
   margin-top:50px;
   color:red;
 }
-@media only screen and (min-width: 414px) {
+@media only screen and (min-width: 400px) {
 
   nav .container {
     width: 100%;
