@@ -39,6 +39,7 @@ img.rounded-corners {
 
 .donatebanner {
   border-radius:25px;
+  margin-top:-10px;
   
 }
 .centered {
@@ -81,8 +82,8 @@ img.rounded-corners {
 }
 
 .info {
-  padding-left:200px;
-  padding-right:200px;
+  padding-left:50px;
+  padding-right:100px;
   margin-top:5%;
 
 
