@@ -9,6 +9,10 @@ margin-top:20px;
 margin-bottom: 20px;
 }
 
+.connect {
+  font-size: 10px;
+}
+
 #logoimage {
   margin-top:20px;
   margin-bottom: 20px;
@@ -42,9 +46,7 @@ margin-bottom: 20px;
     
   }
 
-  #logo {
-    
-  }
+ 
 
   #bannerimage {
     max-width: 97%;
