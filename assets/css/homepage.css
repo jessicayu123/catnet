@@ -228,6 +228,11 @@ width: 100%;
   color:red;
 }
 @media only screen and (min-width: 414px) {
+
+  nav .container {
+    width: 100%;
+}
+
   .pagecontent p {
     
     font-size: 20px;
@@ -269,16 +274,7 @@ width: 100%;
 @media only screen and (min-width: 768px) {
 
   
-  .navbar-fixed-top {
-      position: relative;
-        top: auto;
-    }
-  .navbar-collapse {
-      max-height: none;
-    }
-  body {
-      margin: 0;
-    }
+  
 
   
   .pagecontent p 
