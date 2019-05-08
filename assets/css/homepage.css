@@ -183,7 +183,9 @@ width: 100%;
   padding-right:40px;
 }
 
-
+.col-12 .btn.btn-outline-dark {
+  margin:20px;
+}
 
 .forgot {
   text-align: right;
@@ -193,6 +195,12 @@ width: 100%;
   margin-top:5px;
   color:red;
 }
+
+.card {
+  border:none;
+  padding:25px;
+}
+
 @media only screen and (min-width: 400px) {
 
   
